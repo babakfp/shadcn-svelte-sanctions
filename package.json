@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build:registry": "cd shadcn-svelte/apps/www && pnpm i && pnpm build:registry",
+        "copy:registry": "node src"
+    },
+    "type": "module"
+}
